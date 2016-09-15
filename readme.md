@@ -34,7 +34,7 @@ class Person {
     this.name = name
   }
 }
-toMethod(Person, love)
+toMethod(Person, { love })
 
 const me = new Person('I')
 const sarra = new Person('Sarra')
