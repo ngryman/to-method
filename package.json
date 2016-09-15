@@ -1,0 +1,58 @@
+{
+  "name": "to-method",
+  "version": "0.0.0",
+  "description": "Convert c-like functions to class methods.",
+  "repository": "ngryman/to-method",
+  "main": "index.js",
+  "jsnext:main": "index.es.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "index.es.js"
+  ],
+  "scripts": {
+    "lint": "meta lint",
+    "pretest": "npm run lint -s",
+    "test": "meta test",
+    "dev": "meta dev",
+    "coverage": "meta coverage",
+    "see-coverage": "meta see-coverage",
+    "check-coverage": "meta check-coverage",
+    "bench": "node benchmarks/explicit-vs-apply.js",
+    "build": "meta build simple"
+  },
+  "eslintConfig": {
+    "extends": "ngryman"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "env": {
+      "development": {
+        "plugins": [
+          "transform-es2015-modules-commonjs"
+        ],
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "keywords": [
+    "convert",
+    "function",
+    "c-like function",
+    "bind"
+  ],
+  "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "^2.1.1",
+    "meta-dev": "^0.2.1",
+    "spy": "^0.1.3",
+    "util-arity": "^1.0.2"
+  }
+}
