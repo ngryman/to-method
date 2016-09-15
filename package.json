@@ -1,6 +1,6 @@
 {
   "name": "to-method",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert c-like functions to class methods.",
   "repository": "ngryman/to-method",
   "main": "index.js",
