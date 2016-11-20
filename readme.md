@@ -11,7 +11,7 @@
 
 
 **to-method** lets you bind `c-like` functions to classes. By `c-like` I mean
-functions that always take the manipulate data structure as the first argument.
+functions that always take the target data structure as the first argument.
 
 
 ## Install
