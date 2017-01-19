@@ -51,7 +51,7 @@
   "license": "MIT",
   "devDependencies": {
     "benchmark": "^2.1.1",
-    "meta-dev": "^0.4.0",
+    "meta-dev": "^0.4.1",
     "spy": "^1.0.0",
     "util-arity": "^1.0.2"
   }
