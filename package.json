@@ -50,7 +50,7 @@
   "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
   "license": "MIT",
   "devDependencies": {
-    "benchmark": "^2.1.1",
+    "benchmark": "^2.1.4",
     "meta-dev": "^0.4.0",
     "spy": "^1.0.0",
     "util-arity": "^1.0.2"
