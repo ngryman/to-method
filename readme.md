@@ -1,5 +1,7 @@
 # to-method
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/to-method.svg)](https://greenkeeper.io/)
+
 > Convert c-like functions to class methods.
 
 [![travis][travis-image]][travis-url] [![codecov][codecov-image]][codecov-url]
